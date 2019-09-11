@@ -1,0 +1,8 @@
+.feature-card {
+    background-color:blue;
+}
+
+.feature-card > img {
+    float: left;
+    width: 200px;
+}
