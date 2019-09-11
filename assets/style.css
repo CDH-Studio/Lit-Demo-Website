@@ -1,35 +1,23 @@
+
+/* Features CSS starts here */
 .feature-card {
-    background-color:blue;
-    border-radius: 20px;
-    height: 100px;
-    border: solid 2px green;
+    font-family: 'Roboto', sans-serif;
+    color:#153759;
+    border-radius: 50px;
+    min-height: 200px;
+    margin: 10px 10px 10px 10px;
+    font-size: 15px;
 }
 
 .feature-card > div.row {
-    margin: 10px 10px 10px 0px;
-    border: solid 2px green;
+    padding: 30px 30px 30px 15px;
 }
 
 .feature-card > div.row > img {
-    float: left;
-    max-width: 50px;
-    max-height: 50px;
-    object-fit: cover;
-    display: block;
-    /* margin: 25px; */
+    margin-left: 0;
+    object-fit:scale-down;
 }
 
-.feature-card > div.row > div {
-    /* margin-left: 20px; */
-}
-
-.feature-card > h2 {
-
-}
-
-.feature-card > p {
-
-}
 
 /* Timeline css starts here  */
 .main-timeline{
