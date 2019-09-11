@@ -1,7 +1,21 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+button.lit-btn {
+    background-color: #298939;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 23px;
+    /* margin: 4px 2px; */
+    border-radius: 100px;
+}
 
 /* Features CSS starts here */
 .feature-card {
-    font-family: 'Roboto', sans-serif;
     color:#153759;
     border-radius: 50px;
     min-height: 200px;
