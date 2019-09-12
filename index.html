@@ -21,7 +21,7 @@
 <body>
     <!-- Navbar, see https://getbootstrap.com/docs/4.3/components/navbar/ -->
     <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
-        <div class="container" style="padding: 10px 0 10px 0">
+        <div class="container"></div>
         <!-- Logo -->
         <a href="">
             <img src="C:\Users\MadoreCV\Desktop\References\LIT Project\Presentation website\placeholderImg.png" width="20" class="navbar-brand" href="#"/>
@@ -90,18 +90,15 @@
     <!-- Home section -->
     <section id="sec_home" class="bg-primary">
         <div class="container">
-            <div class="row">
+            <div class="row" style="height: 600px">
                 <!-- Description of the product -->
-                <div class="col-md-5 center-vh">
-                    <!-- <h2>Some title</h2> -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <button class="lit-btn">
-                        Get started
-                    </button>
+                <div class="col-md-5" style="background-color: yellow">
+                    <h2>Some title</h2>
+                    <p>Description of the product</p>
                 </div>
                 <!-- Image or animation -->
-                <div class="col-md-7 center-vh" style="border: solid 2px red">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg" alt="" height="400px">
+                <div class="col-md-7" style="background-color: red">
+                    <img src="C:\Users\MadoreCV\Desktop\References\LIT Project\Presentation website\placeholderImg.png" alt="">
                 </div>
             </div>
         </div>
@@ -110,9 +107,13 @@
     <!-- Why section -->
     <!-- TODO add spacing -->
     <section id="sec_why" class="bg-secondary">
-        <div class="container text-center" style="padding-top: 50px; padding-bottom: 50px">
+        <div class="container text-center" style="min-height: 100px">
             <h2>Why LIT?</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <!-- Button to expand/collapse the paragraph below, from https://getbootstrap.com/docs/4.3/components/collapse/ -->
+            <button class="lit-btn col-md-3" type="button" data-toggle="collapse" data-target="#collapse_why" aria-expanded="false" aria-controls="collapse_why">
+                More
+            </button>
             <div id="collapse_why" class="collapse" margin="100px">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -120,27 +121,23 @@
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
-            <!-- Button to expand/collapse the paragraph above, from https://getbootstrap.com/docs/4.3/components/collapse/ -->
-            <button class="lit-btn col-md-3" type="button" data-toggle="collapse" data-target="#collapse_why" aria-expanded="false" aria-controls="collapse_why">
-                More
-            </button>
         </div>
     </section>
 
     <!-- Benefits section -->
     <section id="sec_benefits" class="bg-primary">
-        <div class="container" style="padding-top: 50px; padding-bottom: 50px">
-            <div class="row">
+        <div class="container">
+            <div class="row" style="min-height: 600px">
                 <!-- Image or animation -->
-                <div class="col-md-6 center-vh" style="border: solid 2px red">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg" alt="" style="height: 400px">
+                <div class="col-md-6" style="background-color: red">
+                    <img src="C:\Users\MadoreCV\Desktop\References\LIT Project\Presentation website\placeholderImg.png" alt="">
                 </div>
                 <!-- List of benefits -->
-                <div class="col-md-6" style="margin-top: auto; margin-bottom: auto">
+                <div class="col-md-6" style="background-color: yellow">
                     <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetuer Aenean commodo Aenean commodo</li>
-                        <li>Lorem ipsum dolor sit amet, consectetuer Aenean commodo Aenean commodo</li>
-                        <li>Lorem ipsum dolor sit amet, consectetuer Aenean commodo Aenean commodo</li>
+                        <li>benefit 1</li>
+                        <li>benefit 2</li>
+                        <li>benefit 3</li>
                     </ul>
                 </div>
             </div>
@@ -281,14 +278,39 @@
                         <h4>Lorem ipsum</h4>
                         <span>Lorem ipsum dolor ait amet</span>
                         <ul>
-                            <li><a href="" style="color: black"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="" style="color: black;"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="" style="color: black;"><i class="fa fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 col-6">
+                    <div class="single">
+                        <div class="thumb">
+                            <img src="/assets/img/team/avatar_2.png" alt="image">
+                        </div>
+                        <h4>Lorem ipsum</h4>
+                        <span>Lorem ipsum dolor ait amet</span>
+                        <ul>
+                            <li><a href="" style="color: black;"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="" style="color: black;"><i class="fa fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 col-6">
+                    <div class="single">
+                        <div class="thumb">
+                            <img src="/assets/img/team/avatar_3.png" alt="image">
+                        </div>
+                        <h4>Lorem ipsum</h4>
+                        <span>Lorem ipsum dolor ait amet</span>
+                        <ul>
+                            <li><a href="" style="color: black;"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="" style="color: black;"><i class="fa fa-github"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="row" style="height: 300px">
-                <p>TEAM</p>
-            </div>
+            
         </div>
     </section>
 
