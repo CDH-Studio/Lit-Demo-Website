@@ -29,7 +29,7 @@ div.center-vh {
 /* Features CSS starts here */
 .feature-card {
     color:#153759;
-    border-radius: 50px;
+    border-radius: 25px;
     min-height: 200px;
     margin: 10px 10px 10px 10px;
     font-size: 15px;
