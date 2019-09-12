@@ -109,4 +109,47 @@ button.lit-btn {
     .main-timeline .timeline-content:before,.main-timeline .timeline:nth-child(2n) .timeline-content:before{left:99px}
     .main-timeline .timeline-content:after,.main-timeline .timeline:nth-child(2n) .timeline-content:after{left:65px}
   }
-/* Timeline css ends her */
+/* Timeline css ends here */
+
+/* team css starts here */
+.sec_team{}
+.single{
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 3px;
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.single:hover{
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+.thumb{
+    margin: 40px 0px;
+}
+.thumb img{
+    max-width: 160px;
+    border-radius: 50%;
+}
+.single h4{
+        font-size: 20px;
+    font-weight: 500;
+    color: #232323;
+    letter-spacing: 0;
+    margin-bottom: 8px;
+}
+.single span{
+    display: block;
+    color: #666;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+.single ul{
+    margin-top: 40px;
+    list-style: none;
+}
+
+/* team css ends here */
