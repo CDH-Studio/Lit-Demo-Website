@@ -44,6 +44,16 @@ div.center-vh {
     object-fit:scale-down;
 }
 
+/* Mock-ups CSS starts here */
+.carousel-inner > .carousel-item {
+  max-height: inherit;
+}
+
+.carousel-item > img {
+  max-height: inherit;
+  object-fit: scale-down;
+  border: solid 2px red;
+}
 
 /* Timeline css starts here  */
 .main-timeline{
