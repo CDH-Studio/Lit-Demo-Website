@@ -14,6 +14,13 @@ button.lit-btn {
     border-radius: 100px;
 }
 
+/* Centers the content of the div both vertically and horizontally */
+div.center-vh {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
 /* Features CSS starts here */
 .feature-card {
     color:#153759;
