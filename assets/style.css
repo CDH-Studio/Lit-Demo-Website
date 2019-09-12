@@ -14,6 +14,11 @@ button.lit-btn {
     border-radius: 100px;
 }
 
+div.container {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
 /* Centers the content of the div both vertically and horizontally */
 div.center-vh {
   margin-top: auto;
