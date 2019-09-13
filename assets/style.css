@@ -188,3 +188,24 @@ div.center-vh {
 }
 
 /* team css ends here */
+
+/* contact css starts here */
+.center-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.email-icon{
+    float: right;
+}
+
+.email-span-height{
+    line-height: 4em;
+}
+
+.email-span-font{
+    font-size: 1.3em;
+    color:#153759
+}
+/* contact css ends here */
