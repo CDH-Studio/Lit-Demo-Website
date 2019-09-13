@@ -26,6 +26,18 @@ div.center-vh {
   text-align: center;
 }
 
+/* Navbar CSS starts here */
+.navbar {
+  background-color: rgba(255,255,255,1);
+  transition: background-color 2s ease 0s;
+}
+
+.opaque {
+  background-color: rgba(0,0,0,0);
+  transition: background-color 2s ease 0s;
+}
+
+
 /* Features CSS starts here */
 .feature-card {
     color:#153759;
