@@ -202,6 +202,9 @@ div.center-vh {
 /* team css ends here */
 
 /* contact css starts here */
+#sec_contact{
+    background-color: #F9F9F9;
+}
 .center-logo{
     display: block;
     margin-left: auto;
@@ -221,3 +224,21 @@ div.center-vh {
     color:#153759
 }
 /* contact css ends here */
+
+/* footer css starts here */
+.footer-area{
+    height: 120px;
+    text-align: center;
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+}
+.footer-area p{
+    color: #153759;
+}
+.footer-area p a{
+    color: #153759;
+    font-size: 14px;
+}
+
+/* footer css ends here */
