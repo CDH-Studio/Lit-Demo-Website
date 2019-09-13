@@ -29,14 +29,24 @@ div.center-vh {
 /* Navbar CSS starts here */
 .navbar {
   background-color: rgba(255,255,255,1);
-  transition: background-color 2s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
-.opaque {
-  background-color: rgba(0,0,0,0);
-  transition: background-color 2s ease 0s;
+.navbar-scrolled {
+  /* background: #296ee8; */
+  background-color: #153759;
+  transition: all 0.2s ease 0s;
 }
 
+.nav-link {
+  color: #153759;
+  transition: all 0.2s ease 0s;
+}
+
+.nav-link-scrolled {
+  color: white;
+  transition: all 0.2s ease 0s;
+}
 
 /* Features CSS starts here */
 .feature-card {
