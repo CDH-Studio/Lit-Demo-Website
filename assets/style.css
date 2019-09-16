@@ -48,6 +48,21 @@ div.center-vh {
   transition: all 0.2s ease 0s;
 }
 
+/* Home CSS starts here */
+#sec_home {
+  background-color: #FFFFFF;
+}
+
+/* Why CSS starts here */
+#sec_why {
+  background-color: #F9F9F9;
+}
+
+/* Benefits CSS starts here */
+#sec_benefits {
+  background-color: #FFFFFF;
+}
+
 /* Features CSS starts here */
 .feature-card {
     color:#153759;
