@@ -10,7 +10,7 @@ button.lit-btn {
     text-align: center;
     display: inline-block;
     font-size: 23px;
-    /* margin: 4px 2px; */
+    margin-top: 20px;
     border-radius: 100px;
 }
 
@@ -29,11 +29,10 @@ div.center-vh {
 /* Navbar CSS starts here */
 .navbar {
   background-color: rgba(255,255,255,1);
-  transition: all 0.5s ease 0s;
+  transition: all 0.2s ease 0s;
 }
 
 .navbar-scrolled {
-  /* background: #296ee8; */
   background-color: #153759;
   transition: all 0.2s ease 0s;
 }
@@ -47,23 +46,32 @@ div.center-vh {
   color: white;
   transition: all 0.2s ease 0s;
 }
+/* Navbar CSS ends here */
 
 /* Home CSS starts here */
 #sec_home {
   background-color: #FFFFFF;
+  /* height: 100vh; */
 }
+/* Home CSS ends here */
 
 /* Why CSS starts here */
 #sec_why {
   background-color: #F9F9F9;
 }
+/* Why CSS ends here */
 
 /* Benefits CSS starts here */
 #sec_benefits {
   background-color: #FFFFFF;
 }
+/* Benefits CSS ends here */
 
 /* Features CSS starts here */
+#sec_features {
+  background-color: #F9F9F9
+}
+
 .feature-card {
     color:#153759;
     border-radius: 25px;
@@ -80,8 +88,13 @@ div.center-vh {
     margin-left: 0;
     object-fit:scale-down;
 }
+/* Features CSS ends here */
 
 /* Mock-ups CSS starts here */
+#sec_prototypes {
+  background-color: #FFFFFF;
+}
+
 .carousel-inner > .carousel-item {
   max-height: inherit;
 }
@@ -91,12 +104,18 @@ div.center-vh {
   object-fit: scale-down;
   border: solid 2px red;
 }
+/* Mock-ups CSS ends here */
 
-/* Timeline css starts here  */
+/* Timeline CSS starts here  */
+#sec_timeline {
+  background-color: #F9F9F9;
+}
+
 .main-timeline{
     position:relative;
     margin-bottom: 50px;
-    background-color: #F9F9F9;
+    /* background-color: #F9F9F9; */
+    /* background-color: #FFFFFF; */
 }
   .main-timeline:before{content:"";width:10px;height:100%;border-radius:20px;margin:0 auto;background:#153759;position:absolute;top:0;left:0;right:0}
   .main-timeline .timeline{display:inline-block;margin-bottom:50px;position:relative}
@@ -168,9 +187,9 @@ div.center-vh {
     .main-timeline .timeline-content:before,.main-timeline .timeline:nth-child(2n) .timeline-content:before{left:99px}
     .main-timeline .timeline-content:after,.main-timeline .timeline:nth-child(2n) .timeline-content:after{left:65px}
   }
-/* Timeline css ends here */
+/* Timeline CSS ends here */
 
-/* team css starts here */
+/* Team CSS starts here */
 .sec_team{}
 .single{
     background-color: #fff;
@@ -224,9 +243,9 @@ div.center-vh {
     color:#153759;
 }
 
-/* team css ends here */
+/* Team CSS ends here */
 
-/* contact css starts here */
+/* Contact CSS starts here */
 #sec_contact{
     background-color: #F9F9F9;
 }
