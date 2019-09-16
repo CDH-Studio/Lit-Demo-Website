@@ -49,9 +49,11 @@ div.center-vh {
 /* Navbar CSS ends here */
 
 /* Home CSS starts here */
-#sec_home {
+#sec_home > div.container {
   background-color: #FFFFFF;
-  /* height: 100vh; */
+  height: 100vh;
+  /* width: 100% !important; */
+  border: solid 2px red;
 }
 /* Home CSS ends here */
 
