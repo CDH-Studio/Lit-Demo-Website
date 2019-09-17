@@ -1,10 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
-/* 
-html {
-  scroll-behavior: smooth !important;
-} */
 
 /* Default style for text */
 p.base-text {
@@ -220,6 +216,8 @@ div.center-vh {
 /* Timeline CSS ends here */
 
 /* Team CSS starts here */
+.sec_team{}
+
 .single{
     background-color: #fff;
     text-align: center;
