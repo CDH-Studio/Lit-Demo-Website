@@ -91,14 +91,25 @@ div.center-vh {
 
 .feature-card {
     color:#153759;
-    border-radius: 25px;
-    min-height: 200px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    /* min-height: 200px; */
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
     margin: 10px 10px 10px 10px;
     font-size: 15px;
 }
 
 .feature-card > div.row {
     padding: 30px 30px 30px 15px;
+    /* border: solid 2px red; */
+}
+
+
+.feature-card:hover {
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
 
 .feature-card > div.row > img {
@@ -208,6 +219,7 @@ div.center-vh {
 
 /* Team CSS starts here */
 .sec_team{}
+
 .single{
     background-color: #fff;
     text-align: center;
