@@ -103,10 +103,8 @@ div.center-vh {
 }
 
 .feature-card > div.row {
-    padding: 30px 30px 30px 15px;
-    /* border: solid 2px red; */
+  padding: 20px 20px 7px 20px;
 }
-
 
 .feature-card:hover {
   box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
