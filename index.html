@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="../../../../favicon.ico">
+    <!-- <link rel="icon" href="../../../../favicon.ico"> -->
     <!-- From https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
 
     <!-- Boostrap doc -->
@@ -76,23 +76,26 @@
 
     <!-- Home section -->
     <section id="sec_home">
-        <!-- <div class="container"> -->
-        <div style="margin: 5em;">
+        <!-- <div style="margin: 5em;">
             <div class="row">
-                <!-- Description of the product -->
                 <div class="col-lg-5 col-12 center-vh" style="padding: 2em">
-                    <!-- <h2>Some title</h2> -->
                     <p class="base-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua.</p>
                     <a href="#sec_why"><button class="lit-btn">
                             Get started
                         </button></a>
                 </div>
-                <!-- Image or animation -->
                 <div class="col-lg-7 col-12 center-vh" style="border: solid 2px red;">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Moose_superior.jpg/1024px-Moose_superior.jpg"
                         alt="" style="max-width:90%; max-height: auto;">
                 </div>
+            </div>
+        </div> -->
+
+        <div class="container-fluid" style="border: solid 2px red;">
+            <div class="col-md-6">
+                <img src="assets/img/tcentral_logo.png" style="max-width: 100%" alt="">
+                <p class="base-text" style="padding-top: 50px; text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
             </div>
         </div>
     </section>
@@ -717,7 +720,7 @@
 
                     // Store hash
                     var hash = this.hash;
-                    var navbarHeight = $("#navbar").height();
+                    // var navbarHeight = $("#navbar").height();
 
                     // Using jQuery's animate() method to add smooth page scroll
                     // The optional number specifies the number of milliseconds it takes to scroll to the specified area
