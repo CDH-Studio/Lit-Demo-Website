@@ -67,7 +67,7 @@ div.center-vh {
 #sec_home {
   background-color: #ffffff;
   /* height: 100vh; */
-  min-height: 100vh;
+  min-height: 1080px;
   padding: 50px 200px 0px 200px;
 }
 /* Home CSS ends here */
@@ -76,6 +76,13 @@ div.center-vh {
 #sec_why {
   background-color: #f9f9f9;
 }
+
+/* .blurry-text {
+  font-size: 28px;
+  font-weight: 600;
+  color: transparent;
+  text-shadow: 0 0 5px rgba(97, 41, 64, 0.5);
+} */
 /* Why CSS ends here */
 
 /* Benefits CSS starts here */

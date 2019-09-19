@@ -28,9 +28,9 @@
             <!-- Logo -->
             <div class="navbar-header page-scroll">
                 <a href="#">
-                    <img class="navbar-brand"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Moose_superior.jpg/1024px-Moose_superior.jpg"
-                        alt="website logo" width="20" />
+                    <img id="navbar-logo" class="navbar-brand"
+                        src="assets/img/logo-dark.png"
+                        alt="website logo" width="50px" />
                 </a>
                 <!-- The navbar will collapse into a button when the screen gets too small -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -94,7 +94,7 @@
 
         <div class="container-fluid" style="border: solid 2px red;">
             <div class="col-md-6">
-                <img src="assets/img/tcentral_logo.png" style="max-width: 100%" alt="">
+                <img src="assets/img/tcentral_logo.png" style="max-width: 100%" alt="TCentral Logo">
                 <p class="base-text" style="padding-top: 50px; text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
             </div>
         </div>
@@ -104,7 +104,7 @@
     <section id="sec_why">
         <div class="container text-center" style="padding-top: 50px; padding-bottom: 50px">
             <div class="section-title text-center">
-                <h2>Why LIT?</h2>
+                <h2>Why TCentral?</h2>
                 <p class="base-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua.</p>
             </div>
@@ -174,7 +174,7 @@
                 <!-- Feature card -->
                 <div class="feature-card col-md-5">
                     <div class="row">
-                        <i class="col-md-4 fa fa-globe" style="font-size: 110px; text-align: center;"></i>
+                        <i class="col-md-4 fa fa-globe" style="font-size: 110px; text-align: center; color: black"></i>
                         <!-- <img class="col-md-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Moose_superior.jpg/1024px-Moose_superior.jpg" alt=""> -->
                         <div class="col-md-8">
                             <h3>Lorem ipsum</h3>
@@ -186,7 +186,7 @@
                 <!-- Feature card -->
                 <div class="feature-card col-md-5">
                     <div class="row">
-                        <i class="col-md-4 fa fa-globe" style="font-size: 110px; text-align: center;"></i>
+                        <i class="col-md-4 fa fa-globe" style="font-size: 110px; text-align: center; color: black"></i>
                         <!-- <img class="col-md-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Moose_superior.jpg/1024px-Moose_superior.jpg" alt=""> -->
                         <div class="col-md-8">
                             <h3>Lorem ipsum</h3>
@@ -197,7 +197,7 @@
                 <!-- Feature card -->
                 <div class="feature-card col-md-5">
                     <div class="row">
-                        <i class="col-md-4 fa fa-globe" style="font-size: 110px; text-align: center"></i>
+                        <i class="col-md-4 fa fa-globe" style="font-size: 110px; text-align: center; color: black"></i>
                         <!-- <img class="col-md-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Moose_superior.jpg/1024px-Moose_superior.jpg" alt=""> -->
                         <div class="col-md-8">
                             <h3>Lorem ipsum</h3>
@@ -208,7 +208,7 @@
                 <!-- Feature card -->
                 <div class="feature-card col-md-5">
                     <div class="row">
-                        <i class="col-md-4 fa fa-globe" style="font-size: 110px; text-align: center"></i>
+                        <i class="col-md-4 fa fa-globe" style="font-size: 110px; text-align: center; color: black"></i>
                         <!-- <img class="col-md-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Moose_superior.jpg/1024px-Moose_superior.jpg" alt=""> -->
                         <div class="col-md-8">
                             <h3>Lorem ipsum</h3>
@@ -739,20 +739,31 @@
             // From https://stackoverflow.com/questions/16224636/twitter-bootstrap-collapse-change-display-of-toggle-button
             $('#btn-more').click(function () {
                 $(this).text(function (i, old) {
-                    return old == 'Less' ? 'More' : 'Less';
+                    if (old == 'Less') {
+
+                        return 'More';
+                    } else {
+                        return 'Less';
+                    }
+                    // return old == 'Less' ? 'More' : 'Less';
                 });
             });
 
             // Change the color of the navbar on scroll down.
             $(window).scroll(function () {
+                // var newImageUrl = $("#navbar-logo").src;
                 if ($(this).scrollTop() > 50) {
                     $('#navbar').addClass('navbar-scrolled');
                     $('.nav-link').addClass('nav-link-scrolled');
+                    // newImageUrl = "assets/img/logo-light.png";
                 } else {
                     $('#navbar').removeClass('navbar-scrolled');
                     $('.nav-link').removeClass('nav-link-scrolled');
+                    // newImageUrl = "assets/img/logo-dark.png";
                 }
             });
+
+            
         });
     </script>
 </body>
