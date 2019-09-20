@@ -105,19 +105,14 @@
         <div class="container text-center" style="padding-top: 50px; padding-bottom: 50px">
             <div class="section-title text-center">
                 <h2>Why TCentral?</h2>
-                <p class="base-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.</p>
+                <p class="base-text">Create, consolidate and adjust the national trustee compliance work plan from this single centralized application.</p>
             </div>
             <div id="collapse_why" class="collapse" margin="100px">
                 <p class="base-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
+                    TCentral is a web application that will allow OSB personnel in all regions to create Trustee Compliance Work Plans, 
+                    track any changes made to each plan throughout the year, and store all plan related data in a central 
+                    database where it can be accessed by reporting tools. With TCentral the excel spreadsheets currently being used for creating, 
+                    submitting and consolidating compliance work plans will be eliminated.
                 </p>
             </div>
             <!-- Button to expand/collapse the paragraph above, from https://getbootstrap.com/docs/4.3/components/collapse/ -->
@@ -149,9 +144,10 @@
                         <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer Aenean commodo Aenean commodo</li>
                         <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer Aenean commodo Aenean commodo</li>
                     </ul> -->
-                    <p class="base-text">Lorem ipsum dolor sit amet, consectetuer Aenean commodo Aenean commodo</p>
-                    <p class="base-text">Lorem ipsum dolor sit amet, consectetuer Aenean commodo Aenean commodo</p>
-                    <p class="base-text">Lorem ipsum dolor sit amet, consectetuer Aenean commodo Aenean commodo</p>
+                    <p class="base-text">TCentral will reduce the time it takes to create and consolidate the national TC work plan.</p>
+                    <p class="base-text">Changes to the national TC work plan will be tracked, allowing for more accurate reporting. 
+                        This will also help with resource allocation in future work plans.</p>
+                    <p class="base-text">Centralized data will allow all users to see the work plan as it really is, even as the plan changes throughout the fiscal period.</p>
                 </div>
             </div>
         </div>
@@ -221,6 +217,7 @@
     </section>
 
     <!-- Prototypes and mock-ups section -->
+    <div id="sec_prototypes" class="section-anchor"></div>
     <section id="sec_prototypes">
         <div class="container">
             <div class="section-title text-center">
@@ -725,9 +722,9 @@
                     // Using jQuery's animate() method to add smooth page scroll
                     // The optional number specifies the number of milliseconds it takes to scroll to the specified area
                     // TODO Add an offset to the scrolling without stuttering
-                    $('html, body').animate({
+                    $('html, body').stop().animate({
                         scrollTop: $(hash).offset().top
-                    }, 500, function () {
+                    }, 500, 'swing', function () {
 
                         // Add hash (#) to URL when done scrolling (default click behavior)
                         window.location.hash = hash;

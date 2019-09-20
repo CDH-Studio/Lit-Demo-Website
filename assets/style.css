@@ -21,6 +21,13 @@ div.section-title {
   padding-bottom: 2em;
 }
 
+.section-anchor {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  padding-top: 200px;
+  height: 200px;
+}
+
 button.lit-btn {
   background-color: #298939;
   border: none;
