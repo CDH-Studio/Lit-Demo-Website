@@ -1,16 +1,12 @@
 * {
   font-family: "Roboto", sans-serif;
 }
-/* 
-html {
-  scroll-behavior: smooth !important;
-} */
 
 /* Default style for text */
 p.base-text {
   font-size: 28px;
   font-weight: 600;
-  color: #153759;
+  color: #612940;
 }
 
 h2 {
@@ -22,7 +18,7 @@ div.section-title {
 }
 
 button.lit-btn {
-  background-color: #298939;
+  background-color: #612940;
   border: none;
   color: white;
   padding: 20px;
@@ -52,7 +48,7 @@ div.center-vh {
 }
 
 .navbar-scrolled {
-  background-color: #153759;
+  background-color: #612940;
   transition: all 0.2s ease 0s;
 }
 
@@ -71,8 +67,8 @@ div.center-vh {
 #sec_home {
   background-color: #ffffff;
   /* height: 100vh; */
-  max-height: 100vh;
-  border: solid 2px red;
+  min-height: 1080px;
+  padding: 50px 200px 0px 200px;
 }
 /* Home CSS ends here */
 
@@ -80,6 +76,13 @@ div.center-vh {
 #sec_why {
   background-color: #f9f9f9;
 }
+
+/* .blurry-text {
+  font-size: 28px;
+  font-weight: 600;
+  color: transparent;
+  text-shadow: 0 0 5px rgba(97, 41, 64, 0.5);
+} */
 /* Why CSS ends here */
 
 /* Benefits CSS starts here */
@@ -94,7 +97,7 @@ div.center-vh {
 }
 
 .feature-card {
-  color: #153759;
+  color: #612940;
   background-color: #ffffff;
   border-radius: 20px;
   /* min-height: 200px; */
@@ -466,6 +469,9 @@ div.center-vh {
 /* Timeline CSS ends here */
 
 /* Team CSS starts here */
+.sec_team {
+}
+
 .single {
   background-color: #fff;
   text-align: center;
