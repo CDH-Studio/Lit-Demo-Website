@@ -2,6 +2,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 /* Default style for text */
 p.base-text {
   font-size: 28px;
@@ -43,7 +48,7 @@ div.center-vh {
 
 /* Navbar CSS starts here */
 .navbar {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0);
   transition: all 0.2s ease 0s;
 }
 
@@ -65,10 +70,15 @@ div.center-vh {
 
 /* Home CSS starts here */
 #sec_home {
-  background-color: #ffffff;
   /* height: 100vh; */
-  min-height: 1080px;
+  min-height: 900px;
   padding: 50px 200px 0px 200px;
+}
+
+#img_home {
+  opacity: 0.2;
+  width: 1150px;
+  margin-top: -100px;
 }
 /* Home CSS ends here */
 
@@ -100,7 +110,7 @@ div.center-vh {
   color: #612940;
   background-color: #ffffff;
   border-radius: 20px;
-  /* min-height: 200px; */
+  min-height: 150px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -139,9 +149,21 @@ div.center-vh {
 }
 /* Mock-ups CSS ends here */
 
+/* Architecture CSS starts here */
+#sec_architecture {
+  background-color: #f9f9f9;
+}
+
+.tech-img {
+  height: 170px;
+  /* margin: 20px; */
+  padding: 20px;
+}
+/* Architecture CSS ends here */
+
 /* Timeline CSS starts here  */
 #sec_timeline {
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 
 .main-timeline {
@@ -174,7 +196,7 @@ div.center-vh {
   height: 20px;
   border-radius: 50%;
   border: 2px solid #f9f9f9;
-  background: #f9e535;
+  background: #612940;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -196,9 +218,9 @@ div.center-vh {
 .main-timeline .timeline-icon i {
   display: block;
   border-radius: 50%;
-  background: #f9e535;
+  background: #612940;
   font-size: 64px;
-  color: black;
+  color: white;
   line-height: 100px;
   z-index: 1;
   position: relative;
@@ -208,7 +230,7 @@ div.center-vh {
   content: "";
   width: 100px;
   height: 4px;
-  background: #f9e535;
+  background: #612940;
   position: absolute;
   top: 50%;
   right: -100px;
@@ -234,7 +256,7 @@ div.center-vh {
   content: "";
   width: 70%;
   height: 100%;
-  border: 4px solid #f9e535;
+  border: 4px solid #612940;
   border-top: none;
   border-right: none;
   position: absolute;
@@ -245,7 +267,7 @@ div.center-vh {
   content: "";
   width: 37px;
   height: 4px;
-  background: #f9e535;
+  background: #612940;
   position: absolute;
   top: 18px;
   left: 0;
@@ -253,7 +275,7 @@ div.center-vh {
 .main-timeline .title {
   font-size: 20px;
   font-weight: 600;
-  color: #f9e535;
+  color: #612940;
   text-transform: uppercase;
   margin: 0 0 5px;
 }
@@ -296,51 +318,51 @@ div.center-vh {
 .main-timeline .timeline:nth-child(2n) .timeline-icon i,
 .main-timeline .timeline:nth-child(2n) .timeline-icon:before,
 .main-timeline .timeline:nth-child(2n):before {
-  background: #838f2e;
+  background: #612940;
 }
 .main-timeline .timeline:nth-child(2n) .timeline-icon {
-  border-color: #838f2e;
+  border-color: #612940;
 }
 .main-timeline .timeline:nth-child(2n) .title {
-  color: #838f2e;
+  color: #612940;
 }
 .main-timeline .timeline:nth-child(2n) .timeline-content:before {
-  border-left-color: #838f2e;
-  border-bottom-color: #838f2e;
+  border-left-color: #612940;
+  border-bottom-color: #612940;
 }
 
 .main-timeline .timeline:nth-child(3n) .timeline-content:after,
 .main-timeline .timeline:nth-child(3n) .timeline-icon i,
 .main-timeline .timeline:nth-child(3n) .timeline-icon:before,
 .main-timeline .timeline:nth-child(3n):before {
-  background: #1ac737;
+  background: #612940;
 }
 .main-timeline .timeline:nth-child(3n) .timeline-icon {
-  border-color: #1ac737;
+  border-color: #612940;
 }
 .main-timeline .timeline:nth-child(3n) .title {
-  color: #1ac737;
+  color: #612940;
 }
 .main-timeline .timeline:nth-child(3n) .timeline-content:before {
-  border-left-color: #1ac737;
-  border-bottom-color: #1ac737;
+  border-left-color: #612940;
+  border-bottom-color: #612940;
 }
 
 .main-timeline .timeline:nth-child(4n) .timeline-content:after,
 .main-timeline .timeline:nth-child(4n) .timeline-icon i,
 .main-timeline .timeline:nth-child(4n) .timeline-icon:before,
 .main-timeline .timeline:nth-child(4n):before {
-  background: #298939;
+  background: #612940;
 }
 .main-timeline .timeline:nth-child(4n) .timeline-icon {
-  border-color: #298939;
+  border-color: #612940;
 }
 .main-timeline .timeline:nth-child(4n) .title {
-  color: #298939;
+  color: #612940;
 }
 .main-timeline .timeline:nth-child(4n) .timeline-content:before {
-  border-left-color: #298939;
-  border-bottom-color: #298939;
+  border-left-color: #612940;
+  border-bottom-color: #612940;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -469,7 +491,8 @@ div.center-vh {
 /* Timeline CSS ends here */
 
 /* Team CSS starts here */
-.sec_team {
+#sec_team {
+  background-color: #f9f9f9;
 }
 
 .single {
@@ -528,7 +551,8 @@ div.center-vh {
 
 /* Contact CSS starts here */
 #sec_contact {
-  background-color: #f9f9f9;
+  background-color: #ffffff;
+  padding-bottom: 0;
 }
 .center-logo {
   display: block;
