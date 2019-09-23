@@ -295,7 +295,6 @@ div.timeline:nth-child(4n)::before{left: 60.7%;}
 }
 .thumb img {
   max-width: 160px;
-  border-radius: 50%;
 }
 .single h4 {
   font-size: 20px;
