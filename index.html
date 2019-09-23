@@ -6,7 +6,10 @@
     <!-- From https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
 
     <!-- Boostrap doc -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    
     <!-- CSS doc -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -16,30 +19,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>TCentral</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- Navbar, see https://getbootstrap.com/docs/4.3/components/navbar/ -->
 
 
-    <nav id="navbar" class="navbar navbar-expand-lg sticky-top navbar-fixed-top">
-        <div class="container" style="padding: 10px 0 10px 0">
-            <!-- Logo -->
+    <!-- <nav id="navbar" class="navbar navbar-expand-lg sticky-top navbar-fixed-top">
+        
+            Logo
             <div class="navbar-header page-scroll">
-                <a href="#">
+                <a href="#sec_home">
                     <img id="navbar-logo" class="navbar-brand"
                         src="assets/img/logo-dark.png"
                         alt="website logo" width="50px" />
                 </a>
-                <!-- The navbar will collapse into a button when the screen gets too small -->
+                The navbar will collapse into a button when the screen gets too small
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation" style="float:right;">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
-            <!-- Sections in the navbar -->
+            Sections in the navbar
             <div id="navbarSupportedContent" class="collapse navbar-collapse" style="font-size:28px;">
                 <ul class="navbar-nav navbar-right">
                     <li class="nav-item active">
@@ -68,8 +71,51 @@
                     </li>
                 </ul>
             </div>
+        
+    </nav> -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-fixed-top">
+        <div class="container" style="padding: 0">
+            <a href="#sec_home">
+                <img id="navbar-logo" class="navbar-brand"
+                    src="assets/img/logo-dark.png"
+                    alt="website logo" width="50px" />
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="font-size:22px;">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#sec_home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#sec_why">Why <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#sec_benefits">Benefits <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#sec_features">Features <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#sec_prototypes">Prototypes <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#sec_timeline">Timeline <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#sec_team">Team <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#sec_contact">Contact <span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+              
+            </div>
         </div>
-    </nav>
+      </nav>
 
 
     
@@ -110,12 +156,13 @@
                 data-target="#collapse_why" aria-expanded="false" aria-controls="collapse_why">
                 More
             </button>
+           
         </div>
     </section>
-
+    <img class="spreadsheet-img" src="/assets/img/undraw_spreadsheets_xdjy.png"/>
     <!-- Benefits section -->
     <section id="sec_benefits">
-        <div class="container" style="border: solid 2px red">
+        <div class="container">
             <!-- <div class="section-title text-center"> -->
             <div class="text-center">
                 <h2>Benefits</h2>
@@ -123,7 +170,7 @@
             <div class="row">
                 <!-- Image or animation -->
                 <div class="col-md-6 center-vh">
-                    <img src="assets/img/benefits.png" alt="" style="height: 600px; margin-left: -400px">
+                    <img src="assets/img/benefits.png" alt="" style="height: 400px; margin-left: -200px">
                 </div>
                 <!-- List of benefits -->
                 <div class="col-md-6" style="margin-top: auto; margin-bottom: auto; padding: 2em">
@@ -151,8 +198,8 @@
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                 </p>
             </div>
-            <div class="center-vh" style="border: solid 2px red; margin-bottom: 2em">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Moose_superior.jpg/1024px-Moose_superior.jpg"
+            <div class="center-vh" style=" margin-bottom: 2em">
+                <img src="/assets/img/WorkPlan.png"
                     alt="" style="height: 400px">
             </div>
             <div class="row justify-content-center">
@@ -160,11 +207,11 @@
                 <!-- <div class="feature-card col-md-5"> -->
                 <div class="feature-card" style="width: 46%">
                     <div class="row">
-                        <i class="col-md-4 fa fa-globe" style="font-size: 110px; text-align: center; color: black"></i>
+                        <i class="col-md-4 fa fa-tasks" style="font-size: 100px; text-align: center; color: black"></i>
                         <!-- <img class="col-md-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Moose_superior.jpg/1024px-Moose_superior.jpg" alt=""> -->
-                        <div class="col-md-8">
+                        <div class="col-md-8" >
                             <h3>Work Plan Creation</h3>
-                            <p>Simplified Trustee Compliance work plan creation, consolidation, approval and modification.</p>
+                            <p style="color: gray">Simplified Trustee Compliance work plan creation, consolidation, approval and modification.</p>
                         </div>
                     </div>
                 </div>
@@ -172,11 +219,11 @@
                 <!-- <div class="feature-card col-md-5"> -->
                 <div class="feature-card" style="width: 46%">
                     <div class="row">
-                        <i class="col-md-4 fa fa-globe" style="font-size: 110px; text-align: center; color: black"></i>
+                        <i class="col-md-4 fas fa-hourglass-start" style="font-size: 100px; text-align: center; color: black"></i>
                         <!-- <img class="col-md-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Moose_superior.jpg/1024px-Moose_superior.jpg" alt=""> -->
                         <div class="col-md-8">
                             <h3>Time Saving</h3>
-                            <p>New work plans will be auto-populated with data from existing data sources.</p>
+                            <p style="color: gray">New work plans will be auto-populated with data from existing data sources.</p>
                         </div>
                     </div>
                 </div>
@@ -184,11 +231,11 @@
                 <!-- <div class="feature-card col-md-5"> -->
                 <div class="feature-card" style="width: 46%">
                     <div class="row">
-                        <i class="col-md-4 fa fa-globe" style="font-size: 110px; text-align: center; color: black"></i>
+                        <i class="col-md-4 fa fa-magic" style="font-size: 100px; text-align: center; color: black"></i>
                         <!-- <img class="col-md-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Moose_superior.jpg/1024px-Moose_superior.jpg" alt=""> -->
                         <div class="col-md-8">
                             <h3>Easy to Use</h3>
-                            <p>Intuitive, easy to use interface.</p>
+                            <p style="color: gray">Intuitive, easy to use interface.</p>
                         </div>
                     </div>
                 </div>
@@ -196,11 +243,11 @@
                 <!-- <div class="feature-card col-md-5"> -->
                 <div class="feature-card" style="width: 46%">
                     <div class="row">
-                        <i class="col-md-4 fa fa-globe" style="font-size: 110px; text-align: center; color: black"></i>
+                        <i class="col-md-4 fa fa-map-marker" style="font-size: 100px; text-align: center; color: black"></i>
                         <!-- <img class="col-md-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Moose_superior.jpg/1024px-Moose_superior.jpg" alt=""> -->
                         <div class="col-md-8">
                             <h3>Change Management</h3>
-                            <p>Facilitates and tracks changes to the TC work plan throughout the fiscal period.</p>
+                            <p style="color: gray">Facilitates and tracks changes to the TC work plan throughout the fiscal period.</p>
                         </div>
                     </div>
                 </div>
@@ -325,7 +372,8 @@
                             <div class="timeline-content">
                                 <h3 class="title">Month 2</h3>
                                 <p class="description">
-                                    Start solution development, create the database, perform unit testing and create data access object stubs.
+                                    Start solution development, create the database, perform unit testing and create data 
+                                    access object stubs.
                                 </p>
                             </div>
                         </div>
@@ -344,7 +392,8 @@
                             <div class="timeline-content">
                                 <h3 class="title">Month 4</h3>
                                 <p class="description">
-                                    Add "nice to have" features, user acceptance testing, fix bugs and create a production-ready build.
+                                    Add "nice to have" features, user acceptance testing, fix bugs and create 
+                                    a production-ready build.
                                 </p>
                             </div>
                         </div>
@@ -522,7 +571,7 @@
                         "elementType": "labels.text.fill",
                         "stylers": [
                             {
-                                "color": "#FFC80A"
+                                "color": "#612940"
                             }
                         ]
                     },
@@ -540,7 +589,7 @@
                         "elementType": "labels.text.fill",
                         "stylers": [
                             {
-                                "color": "#FFC80A"
+                                "color": "#612940"
                             }
                         ]
                     },
@@ -585,7 +634,7 @@
                         "elementType": "geometry.fill",
                         "stylers": [
                             {
-                                "color": "#FFC80A"
+                                "color": "#612940"
                             },
                             {
                                 "lightness": "0"
@@ -615,7 +664,7 @@
                         "elementType": "labels.text.stroke",
                         "stylers": [
                             {
-                                "color": "#FFC80A"
+                                "color": "#612940"
                             }
                         ]
                     },
@@ -663,7 +712,7 @@
                         "elementType": "geometry",
                         "stylers": [
                             {
-                                "color": "#FFC80A"
+                                "color": "#612940"
                             }
                         ]
                     },
@@ -785,17 +834,25 @@
             $(window).scroll(function () {
                 // var newImageUrl = $("#navbar-logo").src;
                 if ($(this).scrollTop() > 50) {
-                    $('#navbar').addClass('navbar-scrolled');
+                    $('.navbar').addClass('navbar-scrolled');
                     $('.nav-link').addClass('nav-link-scrolled');
+                    $('#navbar-logo').attr("src","assets/img/logo-light.png");
                     // newImageUrl = "assets/img/logo-light.png";
                 } else {
-                    $('#navbar').removeClass('navbar-scrolled');
+                    $('.navbar').removeClass('navbar-scrolled');
                     $('.nav-link').removeClass('nav-link-scrolled');
+                    $('#navbar-logo').attr("src","assets/img/logo-dark.png");
                     // newImageUrl = "assets/img/logo-dark.png";
                 }
             });
 
+
             
+        });
+        
+        $( '.navbar-nav a' ).on( 'click', function () {
+            $( '.navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+            $( this ).parent( 'li' ).addClass( 'active' );
         });
     </script>
 </body>
