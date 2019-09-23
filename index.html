@@ -264,7 +264,7 @@
                 </p> -->
             </div>
             <div class="row">
-                <video class="col-md-12" autoplay loop>
+                <video id="vid" class="col-md-12" controls autoplay loop>
                     <source src="assets/video/Adobe XD 2019-09-20 11-00-25.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -787,6 +787,9 @@
     <script>
 
         $(document).ready(function () {
+  
+
+
             // From https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1
             // Add smooth scrolling to all links
             $("a").on('click', function (event) {
