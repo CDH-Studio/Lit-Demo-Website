@@ -176,10 +176,10 @@ header .social .btn {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   border-radius: 5px;
-  -webkit-transition: all 0.3s ease;
+  /* -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease; */
 }
 #timeline .timeline-item .timeline-content h2 {
   font-size: 28px;
@@ -188,10 +188,10 @@ header .social .btn {
   background: #612940; /* Title background color */
   color: #fff;
   margin: -20px -20px 0 -20px;
-  -webkit-border-radius: 3px 3px 0 0;
+  /* -webkit-border-radius: 3px 3px 0 0;
   -moz-border-radius: 3px 3px 0 0;
   -ms-border-radius: 3px 3px 0 0;
-  border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0; */
 }
 #timeline .timeline-item .timeline-content p {
   padding-top: 20px;
@@ -217,6 +217,37 @@ header .social .btn {
   border-left: 0;
   border-right: 7px solid #612940; /* Small arrow color (even) */
 }
+
+/* Animation */
+/* From https://codepen.io/tutsplus/pen/QNeJgR */
+.timeline-item::after {
+  transition: background-color 0.5s ease-in-out 0.5s;
+}
+
+.timeline-item.in-view::after {
+  background: #f45b69;
+}
+
+.timeline-item .timeline-content {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline-item:nth-child(odd) .timeline-content {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline-item.in-view .timeline-content {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
 /* .timeline-header {
   font-size: 36px;
 } */
