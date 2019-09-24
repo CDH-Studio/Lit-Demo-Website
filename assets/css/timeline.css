@@ -138,11 +138,31 @@ header .social .btn {
   left: 14px;
 } */
 #timeline .timeline-item .timeline-icon i {
-  font-size: 30px;
+  /* font-size: 28px; */
   color: #ffffff;
   position: relative;
+  /* top: 11px;
+  left: 10px; */
+}
+#timeline-icon-one {
+  font-size: 28px;
   top: 11px;
   left: 15px;
+}
+#timeline-icon-two {
+  font-size: 25px;
+  top: 11px;
+  left: 9px;
+}
+#timeline-icon-three {
+  font-size: 28px;
+  top: 10px;
+  left: 11px;
+}
+#timeline-icon-four {
+  font-size: 28px;
+  top: 10px;
+  left: 11px;
 }
 #timeline .timeline-item .timeline-content {
   width: 45%;
