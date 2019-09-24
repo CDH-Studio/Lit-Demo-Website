@@ -96,12 +96,56 @@ $(document).ready(function() {
   })();
 
   // Underlines the active navbar link
-  $(".navbar-nav a").on("click", function() {
-    $(".navbar-nav")
-      .find("li.active")
-      .removeClass("active");
-    $(this)
-      .parent("li")
-      .addClass("active");
+  //   $(".navbar-nav a").on("click", function() {
+  //     $(".navbar-nav")
+  //       .find("li.active")
+  //       .removeClass("active");
+  //     $(this)
+  //       .parent("li")
+  //       .addClass("active");
+  //   });
+
+  // Add/remove the .active class to the links in the navbar
+  // From Jarvis website, theme.js
+  $(window).on("scroll", function() {
+    activeMenuItem($("#navbarToggler"));
   });
+  // function for active menuitem
+  function activeMenuItem($links) {
+    var top = $(window).scrollTop(),
+      windowHeight = $(window).height(),
+      documentHeight = $(document).height(),
+      cur_pos = top + 2,
+      sections = $("section"),
+      nav = $links,
+      nav_height = nav.outerHeight(),
+      home = nav.find(" > ul > li:first");
+
+    sections.each(function() {
+      var top = $(this).offset().top - nav_height - 40,
+        bottom = top + $(this).outerHeight();
+
+      if (cur_pos >= top && cur_pos <= bottom) {
+        nav
+          .find("> ul > li > a")
+          .parent()
+          .removeClass("active");
+        nav
+          .find("a[href='#" + $(this).attr("id") + "']")
+          .parent()
+          .addClass("active");
+      } else if (cur_pos === 2) {
+        nav
+          .find("> ul > li > a")
+          .parent()
+          .removeClass("active");
+        home.addClass("active");
+      } else if ($(window).scrollTop() + windowHeight > documentHeight - 400) {
+        nav
+          .find("> ul > li > a")
+          .parent()
+          .removeClass("active");
+      }
+    });
+  }
 });
