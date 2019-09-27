@@ -1,6 +1,6 @@
 * {
   font-family: "Roboto" sans-serif;
-  color: #612940;
+  color: #002a5f;
 }
 
 section {
@@ -24,7 +24,7 @@ div.section-title {
 }
 
 button.lit-btn {
-  background-color: #612940;
+  background-color: #243c98;
   border: none;
   color: white;
   padding: 10px;
@@ -49,24 +49,32 @@ div.center-vh {
 /* Navbar CSS starts here */
 .navbar {
   background-color: rgba(255, 255, 255, 0);
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
 }
 
 .navbar-scrolled {
-  background-color: #612940;
+  background-color: #002a5f;
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
 }
 
 .nav-link {
   color: grey;
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
 }
 .nav-link:hover {
-  color: #612940;
+  color: #002a5f;
 }
 
 .nav-link-scrolled {
   color: white;
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
 }
 .nav-link-scrolled:hover {
@@ -124,7 +132,7 @@ div.center-vh {
 }
 
 .feature-card {
-  color: #612940;
+  color: #002a5f;
   background-color: #ffffff;
   border-radius: 20px;
   min-height: 150px;
