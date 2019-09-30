@@ -49,12 +49,12 @@ $(document).ready(function() {
     if ($(this).scrollTop() > 50) {
       $(".navbar").addClass("navbar-scrolled");
       $(".nav-link").addClass("nav-link-scrolled");
-      $("#navbar-logo").attr("src", "assets/img/logo-light.png");
+      $("#navbar-logo").attr("src", "assets/img/logo-blue-light.png");
       // newImageUrl = "assets/img/logo-light.png";
     } else {
       $(".navbar").removeClass("navbar-scrolled");
       $(".nav-link").removeClass("nav-link-scrolled");
-      $("#navbar-logo").attr("src", "assets/img/logo-dark.png");
+      $("#navbar-logo").attr("src", "assets/img/logo-blue-dark.png");
       // newImageUrl = "assets/img/logo-dark.png";
     }
   });

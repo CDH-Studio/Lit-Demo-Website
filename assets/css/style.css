@@ -115,7 +115,7 @@ div.center-vh {
 /* Why CSS ends here */
 .spreadsheet-img {
   width: 35%;
-  height: 45%;
+  /* height: 45%; */
   position: absolute;
   margin-top: -200px;
   right: 20px;
@@ -186,6 +186,16 @@ div.center-vh {
   padding: 20px;
 }
 /* Architecture CSS ends here */
+
+/* CSS for image in timeline starts here */
+.process-img {
+  position: absolute;
+  width: 40%;
+  /* margin-top: -100px; */
+  /* top: 100px; */
+  left: 20px;
+}
+/* CSS for image in timeline ends here */
 
 /* Team CSS starts here */
 #sec_team {
