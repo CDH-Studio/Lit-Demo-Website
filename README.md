@@ -2,7 +2,7 @@
 Presentation website for the LIT web application.
 
 # Link : 
-https://cdh-studio.github.io/Lit-Demo-Website/
+https://cdh-studio.github.io/TC-Central/
 
 
 
